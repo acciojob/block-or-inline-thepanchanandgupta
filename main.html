@@ -1,87 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block vs Inline Elements</title>
-	<link rel="stylesheet" href="styles.css">
-    <!-- You can include additional styles or scripts in the head if needed -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
 	</head>
+	
 	<body>
-	
-	    <!-- button -->
-	    <div>
-	        <button data-ns-test="block-inline-button">Test1</button>
-	        <button data-ns-test="block-inline-button">Test2</button>
-	    </div>
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- div -->
-	    <div>
-	        <div data-ns-test="block-inline-div">Test1</div>
-	        <div data-ns-test="block-inline-div">Test2</div>
-	    </div>
-	    <!-- Expected Answer: Block -->
-	
-	    <!-- span -->
-	    <div>
-	        <span data-ns-test="block-inline-span">Test1</span>
-	        <span data-ns-test="block-inline-span">Test2</span>
-	    </div>
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- p -->
-	    <div>
-	        <p data-ns-test="block-inline-p">Test1</p>
-	        <p data-ns-test="block-inline-p">Test2</p>
-	    </div>
-	    <!-- Expected Answer: Block -->
-	
-	    <!-- input -->
-	    <div>
-	        <input type="text" data-ns-test="block-inline-input" value="Test1">
-	        <input type="text" data-ns-test="block-inline-input" value="Test2">
-	    </div>
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- cite -->
-	    <div>
-	        <cite data-ns-test="block-inline-cite">Test1</cite>
-	        <cite data-ns-test="block-inline-cite">Test2</cite>
-	    </div>
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- code -->
-	    <div>
-	        <code data-ns-test="block-inline-code">Test1</code>
-	        <code data-ns-test="block-inline-code">Test2</code>
-	    </div>
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- h1 -->
-	    <div>
-	        <h1 data-ns-test="block-inline-h1">Test1</h1>
-	        <h1 data-ns-test="block-inline-h1">Test2</h1>
-	    </div>
-	    <!-- Expected Answer: Block -->
-	
-	    <!-- sup -->
-	    <div>
-	        <sup data-ns-test="block-inline-sup">Test1</sup>
-	        <sup data-ns-test="block-inline-sup">Test2</sup>
-	    </div>
-		
-	    <!-- Expected Answer: Inline -->
-	
-	    <!-- sub -->
-	    <div>
-	        <sub data-ns-test="block-inline-sub">Test1</sub>
-	        <sub data-ns-test="block-inline-sub">Test2</sub>
-	    </div>
-		<script type="text/javascript" src="./script.js">
-	    <!-- Expected Answer: Inline -->
-	
+		<!-- the entire body must be written by student -->
+		<div>
+			<button data-ns-test="block-inline-button">Test1</button>
+			<button data-ns-test="block-inline-button">Test2</button>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<div data-ns-test="block-inline-div">Test1</div>
+			<div data-ns-test="block-inline-div">Test2</div>
+			<p style="display: inline">Answer: Block</p>
+		</div>
+		<div>
+			<span data-ns-test="block-inline-span">Test1</span>
+			<span data-ns-test="block-inline-span">Test2</span>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<p data-ns-test="block-inline-p">Test1</p>
+			<p data-ns-test="block-inline-p">Test2</p>
+			<p style="display: inline">Answer: Block</p>
+		</div>
+		<div>
+			<input data-ns-test="block-inline-input" placeholder="Test1">
+			<input data-ns-test="block-inline-input" placeholder="Test2">
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<cite data-ns-test="block-inline-cite">Test1</cite>
+			<cite data-ns-test="block-inline-cite">Test2</cite>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<code data-ns-test="block-inline-code">Test1</code>
+			<code data-ns-test="block-inline-code">Test2</code>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<h1 data-ns-test="block-inline-h1">Test1</h1>
+			<h1 data-ns-test="block-inline-h1">Test2</h1>
+			<p style="display: inline">Answer: Block</p>
+		</div>
+		<div>
+			<sup data-ns-test="block-inline-sup">Test1</sup>
+			<sup data-ns-test="block-inline-sup">Test2</sup>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+		<div>
+			<sub data-ns-test="block-inline-sub">Test1</sub>
+			<sub data-ns-test="block-inline-sub">Test2</sub>
+			<p style="display: inline">Answer: Inline</p>
+		</div>
+	    <script type="text/javascript" src="./script.js">
+	</script>		
 	</body>
 </html>
-
-
